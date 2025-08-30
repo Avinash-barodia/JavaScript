@@ -38,4 +38,29 @@ console.log(typeof anotherId); // symbol
 console.log(typeof heros)     //object
 console.log(typeof myObj)      // object
 console.log(typeof myFunction)  // function
+console.log("");
+console.log("");
 
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+let myfirstName = "Avinash"
+let mySecondName = myfirstName
+mySecondName = "Barodiya"
+
+console.log(myfirstName);
+console.log(mySecondName);
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ibl"
+}
+let userTwo = userOne
+
+userTwo.email = "Avinash@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
