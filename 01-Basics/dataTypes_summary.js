@@ -28,6 +28,7 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
+const subjects = ['English', 'Science', 'Commerce', 'Hindi', 'Mathematics']
 
 console.log(typeof bigNumber); // BigInt
 console.log(typeof scoreValue); // number
@@ -41,6 +42,7 @@ console.log(typeof myFunction)  // function
 console.log("");
 console.log("");
 
+console.log(typeof subjects )
 
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++
